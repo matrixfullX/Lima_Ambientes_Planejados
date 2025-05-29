@@ -43,14 +43,20 @@ body {
     color: #252323;
 }
 
-@media screen and (max-width: 767px) {
-    header {
-        img {
+footer {
+    background-color: #0aa1af;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
             max-width: 27px;
         }
-    }
 
-    .col-md-7 {
-        margin-top: 20px;
-    }
+    [data-bs-spy="scroll"] {
+                position: relative;
+                height: 100vh;
+                overflow-y: scroll;
+                scroll-behavior: smooth;
+            }
 }
