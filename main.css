@@ -2,6 +2,11 @@ body {
     background-color: #cececeb6;
 }
 
+section {
+    min-height: 10vh;
+    scroll-margin-top: 100px;
+}
+
 .navbar {
     background-color: #0aa1af;
 }
