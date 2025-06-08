@@ -12,7 +12,7 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4">
         <div class="container">
-            <a class="col-sm-1 col-md-1 pe-3">
+            <a class="col-md-1 pe-3">
                 <img src="images/image/logo.jpg" class="d-block w-100">
             </a>
             <h1 class="navbar-brand fw-bold m-0 fst-italic">Lima Ambientes Planejados</h1>
@@ -21,6 +21,12 @@
             </button>
             <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#demostracao" class="nav-link">
+                            <i class="bi bi-play-circle"></i>
+                            Demostração
+                        </a>
+                    </li>
                     <li class="nav-item fw-bold">
                         <a href="#ambientes" class="nav-link">
                             <i class="bi bi-stars me-1"></i>
@@ -43,41 +49,43 @@
             </nav>
         </div>
     </header>
-    <div class="container pt-3">
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                    <img class="w-100" src="images/demostração/slide1.jpg" alt="sala estilo moderno rústico">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-100" src="images/demostração/slide2.jpg" alt="banheiro">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-100" src="images/demostração/slide3.jpg" alt="cozinha adequada">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-100" src="images/demostração/slide4.jpg" alt="cozinha simples">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img class="w-100" src="images/demostração/slide5.jpg" alt="quarto confortável">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
-            </div>
-        </div>
-    </div>
     <div data-bs-spy="scroll" data-bs-target="#menu-navegacao" data-bs-offset="100" class="spy" tabindex="0" id="main-scroll">
+        <section id="demostracao" class="container pt-3 pb-3 section-demostracao">
+            <div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img class="w-100" src="images/demostração/slide1.jpg" alt="sala estilo moderno rústico">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="images/demostração/slide2.jpg" alt="banheiro">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="images/demostração/slide3.jpg" alt="cozinha adequada">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="images/demostração/slide4.jpg" alt="cozinha simples">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="images/demostração/slide5.jpg" alt="quarto confortável">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="color-section-ambientes" id="ambientes">
             <div class="container pt-5">
                 <div class="row">
