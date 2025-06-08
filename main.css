@@ -1,25 +1,15 @@
-
-body {
-    background-color: #cececeb6;
-}
-
-section {
-    min-height: 10vh;
-    scroll-margin-top: 100px;
-}
-
 .navbar {
     background-color: #0aa1af;
 }
 
-.nav .nav-link.active{
+.nav .nav-link.active {
     background-color: #eeeeee;
     color:  black;
 }
 
 .nav .nav-link ,
 .navbar-brand ,
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: #eeeeee;
 }
 
@@ -36,6 +26,11 @@ section {
     font-family: Myanmar Text;
 }
 
+
+.color-section-demostracao {
+    background-color: #475f6827;
+}
+
 .color-section-ambientes {
     background-color: #475f6827;
 }
@@ -44,17 +39,13 @@ section {
     background-color: #0aa1af31;
 }
 
-.section-materiais {
+.color-section-materiais {
     background-color: #0ba53270;
 }
 
 .color-title {
     background-color: #0aa1af63;
     color: #252323;
-}
-
-.section-demostracao {
-    background-color: #475f6827;
 }
 
 footer {
@@ -70,11 +61,4 @@ footer {
     #sobre-o-lima-ambientes img {
         padding-bottom: 10px;
     }
-
-    [data-bs-spy="scroll"] {
-                position: relative;
-                height: 100vh;
-                overflow-y: scroll;
-                scroll-behavior: smooth;
-            }
 }
