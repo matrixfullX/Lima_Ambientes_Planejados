@@ -1,0 +1,76 @@
+
+body {
+    background-color: #cececeb6;
+}
+
+section {
+    min-height: 10vh;
+    scroll-margin-top: 100px;
+}
+
+.navbar {
+    background-color: #0aa1af;
+}
+
+.nav .nav-link.active{
+    background-color: #eeeeee;
+    color:  black;
+}
+
+.nav .nav-link ,
+.navbar-brand ,
+.navbar-brand:hover{
+    color: #eeeeee;
+}
+
+.navbar-toggler {
+    background-color: #eeeeee;
+}
+
+.section-style {
+    color: #0aa1af;
+    font-family: "Italianno", cursive;
+}
+
+.section-format {
+    font-family: Myanmar Text;
+}
+
+.color-section-ambientes {
+    background-color: #475f6827;
+}
+
+.color-section-sobre {
+    background-color: #0aa1af31;
+}
+
+.section-materiais {
+    background-color: #0ba53270;
+}
+
+.color-title {
+    background-color: #0aa1af63;
+    color: #252323;
+}
+
+footer {
+    background-color: #0aa1af;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+            max-width: 27px;
+        }
+
+    #sobre-o-lima-ambientes img {
+        padding-bottom: 10px;
+    }
+
+    [data-bs-spy="scroll"] {
+                position: relative;
+                height: 100vh;
+                overflow-y: scroll;
+                scroll-behavior: smooth;
+            }
+}
